@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+# wrapper for the replace_chromosome_names.py script
+# handles elegantly compressed files and is aware of
+# BAM and VCF files
+
+ARGS="$@"
+
+CAT=cat
+if 
